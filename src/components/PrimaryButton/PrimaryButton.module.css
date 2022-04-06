@@ -1,0 +1,50 @@
+.PrimaryButton {
+    margin-right: 20px;
+    position: relative;
+    height: 42px;
+    min-width: 90px;
+}
+
+.PrimaryButton:hover {
+    cursor: pointer;
+}
+
+.PrimaryButton > div {
+    height: 42px;
+    min-width: 90px;
+}
+
+.YellowBox {
+    background-color: #FFD300;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    position: absolute;
+    transition: all ease 0.3s;
+}
+
+.PrimaryButton:hover > .YellowBox {
+    transform: scale(1.02);
+    background-color: #F3E9CE;
+}
+
+.YellowBox > p {
+    color: #2F3E46;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 27px;
+}
+
+.WhiteBox {
+    background-color: #FFF8EB;
+    position: absolute;
+    bottom: -4px;
+    left: -4px;
+    z-index: 0;
+    transition: all ease 0.3s;
+}
+
+.PrimaryButton:hover > .WhiteBox {
+    background-color: #B7ABC4;
+}

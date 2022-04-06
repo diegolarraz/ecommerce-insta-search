@@ -1,0 +1,32 @@
+<svg width="1728" height="307" viewBox="0 0 1728 307" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_19_51)" filter="url(#filter0_d_19_51)">
+<g filter="url(#filter1_d_19_51)">
+<path d="M0 152.24L57.6 137.016C115.2 121.792 230.4 91.3442 345.6 106.568C460.8 121.792 576 182.688 691.2 177.645C806.4 172.222 921.6 101.811 1036.8 65.9391C1152 30.4481 1267.2 30.4481 1382.4 50.7151C1497.6 71.3627 1612.8 111.326 1670.4 131.973L1728 152.24V304.481H1670.4C1612.8 304.481 1497.6 304.481 1382.4 304.481C1267.2 304.481 1152 304.481 1036.8 304.481C921.6 304.481 806.4 304.481 691.2 304.481C576 304.481 460.8 304.481 345.6 304.481C230.4 304.481 115.2 304.481 57.6 304.481H0V152.24Z" fill="#31AFB4"/>
+</g>
+</g>
+<defs>
+<filter id="filter0_d_19_51" x="-4" y="-6" width="1736" height="312.481" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="-2"/>
+<feGaussianBlur stdDeviation="2"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.08 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_19_51"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_19_51" result="shape"/>
+</filter>
+<filter id="filter1_d_19_51" x="-4" y="26.0231" width="1736" height="278.458" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="-7"/>
+<feGaussianBlur stdDeviation="2"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_19_51"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_19_51" result="shape"/>
+</filter>
+<clipPath id="clip0_19_51">
+<rect width="1728" height="304.481" fill="white" transform="matrix(1 0 0 -1 0 304.481)"/>
+</clipPath>
+</defs>
+</svg>

@@ -29,7 +29,6 @@ h1, h2, h3, h4, h5, h6, p, span {
   align-items: center;
 }
 
-
 .ProductCards > ul > li:hover {
   transform: scale(1.02);
   cursor: pointer;
@@ -47,16 +46,8 @@ h1, h2, h3, h4, h5, h6, p, span {
   justify-content: center;
 }
 
-.heroSection {
-  background-color: #2F3E46;
-  position: relative;
-  margin-bottom: -4px;
-}
-
-
 .middleSection {
   position: relative;
-  /* height: 400px; */
   background-color: #31AFB4;
 }
 
@@ -99,13 +90,8 @@ h1, h2, h3, h4, h5, h6, p, span {
   background-color: #FFF8EB;
 }
 
-
 .ais-Pagination-item--selected .ais-Pagination-link{
   background-color: #2F3E46;
-}
-
-.heroContent {
-  padding: 80px 12% 80px 12%;
 }
 
 .footerContent {

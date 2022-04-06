@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import {images} from './utils/assets'
 
 import LandingHero from './components/LandingHero';
 import InstaSearch from './components/InstaSearch';
@@ -12,7 +11,6 @@ const App = () => {
 
   return (
     <div>
-
       <LandingHero {...{setBasketActive}}/>    
       <InstaSearch />
       <Footer />

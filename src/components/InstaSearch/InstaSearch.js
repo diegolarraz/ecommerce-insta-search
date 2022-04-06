@@ -15,10 +15,14 @@ const InstaSearch = () => {
     return(
         <section className='middleSection'>
             <div className="container">
+
                 <InstantSearch searchClient={searchClient} indexName="new-index-1649104049">
+ 
                     <div className="search-panel">
                         <div className="search-panel__results">
-
+                        <div className={classes.Slogan}>
+                            <p>Begin your search and create your list!</p>
+                        </div>
                         <div className={classes.SearchBoxWrap}>
                             <SearchBox
                                 className="searchbox"

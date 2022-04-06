@@ -1,8 +1,10 @@
 import React from 'react'
 import classes from './Navbar.module.css'
 import PrimaryButton from '../PrimaryButton';
-const Navbar = (props) => {
-    const {setBasketActive} = props;
+import { useList } from '../../hooks/useList';
+const Navbar = () => {
+    const {setBasketActive} = useList();
+    
     return (
         <div className={classes.Navbar}>
             <div className={classes.LeftNav} style={{width: "110px"}}>

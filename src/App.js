@@ -1,4 +1,5 @@
-import React, { useState } from 'react'
+import React from 'react'
+import ListProvider from "./contexts/ListContext";
 
 import LandingHero from './components/LandingHero';
 import InstaSearch from './components/InstaSearch';
@@ -7,15 +8,13 @@ import Footer from './components/Footer';
 
 
 const App = () => {
-  const [basketActive, setBasketActive] = useState(false);
-
   return (
-    <div>
-      <LandingHero {...{setBasketActive}}/>    
+    <ListProvider>
+      <LandingHero />    
       <InstaSearch />
       <Footer />
-      <BasketModal {...{basketActive, setBasketActive}} />
-    </div>
+      <BasketModal />
+    </ListProvider>
   );
 }
 

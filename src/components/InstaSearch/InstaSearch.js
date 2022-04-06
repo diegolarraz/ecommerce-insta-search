@@ -11,7 +11,7 @@ import classes from './InstaSearch.module.css'
 
 const searchClient = algoliasearch('NJHW9RGPR0', 'e89bb752c801a081713e3ec3d0b7b39a');
 
-const InstaSearch = () => {
+const InstaSearch = ({setMyList}) => {
     return(
         <section className='middleSection'>
             <div className="container">
@@ -36,7 +36,7 @@ const InstaSearch = () => {
                         <div className={classes.CardContainer}>
                             <div className={classes.Spacer}></div>
                             <div className={classes.CardCont}>
-                                <Hits hitComponent={ProductCard} className="ProductCards"/>
+                                <Hits hitComponent={ProductCard}  className="ProductCards"/>
                             </div>
                             <div className={classes.Spacer}></div>
                         </div>

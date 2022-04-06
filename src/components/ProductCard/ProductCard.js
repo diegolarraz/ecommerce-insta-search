@@ -3,12 +3,12 @@ import PropTypes from 'prop-types';
 import classes from './ProductCard.module.css'
 
 const ProductCard = (props) => {
-
+  console.log(props);
     const {name, image, description} = props.hit
 
     return (
         <div className={classes.CardContent}>
-          <img src={image} alt={`${name} image`} />
+          <img src={image} alt={name} />
           <div className={classes.CardText}>
             <h5>{name}</h5>
             <p>{description.substring(0, 122)}</p>

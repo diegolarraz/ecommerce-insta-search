@@ -10,7 +10,7 @@ import Footer from './components/Footer';
 const App = () => {
   return (
     <ListProvider>
-      <LandingHero />    
+      <LandingHero /> 
       <InstaSearch />
       <Footer />
       <BasketModal />

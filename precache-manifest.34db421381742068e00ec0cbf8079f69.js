@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "ef2908ec0509b82e3cb5",
-    "url": "/ecommerce-insta-search/static/css/main.3f202a94.chunk.css"
+    "revision": "260af861f79813bc43bc",
+    "url": "/ecommerce-insta-search/static/css/main.0f7fbd84.chunk.css"
   },
   {
-    "revision": "ef2908ec0509b82e3cb5",
-    "url": "/ecommerce-insta-search/static/js/main.ef2908ec.chunk.js"
+    "revision": "260af861f79813bc43bc",
+    "url": "/ecommerce-insta-search/static/js/main.260af861.chunk.js"
   },
   {
     "revision": "22bc3046aec95059f8d0",
@@ -16,7 +16,7 @@ self.__precacheManifest = [
     "url": "/ecommerce-insta-search/static/js/runtime~main.ba948a39.js"
   },
   {
-    "revision": "9ab196f323d61b77d950d9863101a9e9",
+    "revision": "311fb53589a96d845d4a34f899a70fb6",
     "url": "/ecommerce-insta-search/index.html"
   }
 ];

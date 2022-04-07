@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/ecommerce-insta-search/precache-manifest.4e4faff27715b257958bec9146cfdf9c.js"
+  "/ecommerce-insta-search/precache-manifest.34db421381742068e00ec0cbf8079f69.js"
 );
 
 workbox.clientsClaim();

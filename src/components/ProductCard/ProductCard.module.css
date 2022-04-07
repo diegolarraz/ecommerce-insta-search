@@ -37,14 +37,21 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+.Details > div > img {
+    width: 18px;
+    height: 18px;
 }
 
-.Hidden {
+.AddIcon {
     display: none;
     transition: all ease 3.3s;
 }
 
-.CardContent:hover > .CardText > .Details > .Hidden {
+
+
+.CardContent:hover > .CardText > .Details > .AddIcon {
     display: block;
 }
 

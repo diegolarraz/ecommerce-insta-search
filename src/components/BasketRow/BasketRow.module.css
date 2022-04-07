@@ -2,4 +2,23 @@
     display: flex;
     justify-content: space-between;
     width: 100%;
+    align-items: center;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    border-bottom: 1px solid #F3E9CE;
+}
+
+.BasketRow > p {
+    text-align: left;
+    width: 75%;
+}
+
+.Spacer {
+    width: 5%;
+}
+
+.BasketRow > img {
+    width: 20%;
+    height: 80px;
+    object-fit: contain;
 }

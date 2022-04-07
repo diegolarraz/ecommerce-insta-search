@@ -5,13 +5,18 @@ import { useList } from "../../hooks/useList";
 import BasketRow from "../BasketRow";
 
 const BasketModal = () => {
-  const {basketActive, setBasketActive, myList} = useList()
+  const {
+    basketActive, 
+    setBasketActive, 
+    myList, 
+    totalPrice } = useList()
 
   return (
     <CustomModal isActive={basketActive} setActive={setBasketActive}>
       <div className={classes.Container}>
         { myList.length > 0 ? (
-          <div className="">
+          <div className={classes.BasketContent}>
+            <h5>Your Saved Items</h5>
             {myList.map((product) => (
               <BasketRow 
                 {...{product}}
@@ -21,6 +26,11 @@ const BasketModal = () => {
                 }
               />
             ))}
+
+            <div className={classes.BasketTotal}>
+                <p>Total:</p>
+                <p>${totalPrice}</p>
+            </div>
           </div>
         ): (
           <p>Please add a product</p>

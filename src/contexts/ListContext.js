@@ -9,16 +9,18 @@ const ListProvider = ({ children }) => {
     // To toggle the modal
     const [basketActive, setBasketActive] = useState(false);
 
+    // total price of list products
+    const [totalPrice, setTotalPrice] = useState(0);
+
     // reusable add to list function to append new product
     const addToList = (product) => {
       const newList = myList
       newList.push(product)
       setMyList(newList)
+      setTotalPrice(totalPrice + parseFloat(product.price))
     }
 
-    useEffect(() => {
-      console.log(myList);
-    }, [myList])
+
 
   return (
     <ListContext.Provider
@@ -26,7 +28,8 @@ const ListProvider = ({ children }) => {
         myList,
         addToList,
         basketActive,
-        setBasketActive
+        setBasketActive,
+        totalPrice
       }}
     >
       {children}

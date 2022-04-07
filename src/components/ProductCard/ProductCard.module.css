@@ -14,5 +14,37 @@
 }
 
 .CardText > h5 {
-    height: 48px
+    height: 48px;
+    font-size: 14px;
+    color: #2F3E46;
+    margin-bottom: 0px;
 }
+
+.Details > p {
+    font-size: 14px;
+    font-weight: 600;
+    color: #2F3E46;
+}
+
+.CardText {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Details {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Hidden {
+    display: none;
+    transition: all ease 3.3s;
+}
+
+.CardContent:hover > .CardText > .Details > .Hidden {
+    display: block;
+}
+

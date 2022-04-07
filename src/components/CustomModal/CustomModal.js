@@ -4,8 +4,6 @@ import classes from './CustomModal.module.css'
 
 const CustomModal = (props) => {
     const { 
-        h = "425px",
-        w = "328px",
         position = "static",
         top = "0px",
         bottom,
@@ -14,7 +12,11 @@ const CustomModal = (props) => {
         setActive
     } = props;
 
-    const handleClick = (event) => {
+    // This function closes the modal when the 
+    // background is clicked - stopPropagation 
+    // needed to alow clicks on the modal body
+    
+    const closeModal = (event) => {
         event.cancelBubble = true;
         if (event.stopPropagation) event.stopPropagation();
     }
@@ -26,12 +28,11 @@ const CustomModal = (props) => {
                     className={classes.Overlay} 
                     onClick={() => setActive(false)}
                 >
-                    <div className={classes.Modal} style={{height: h}} onClick={(e) => {    
-                        handleClick(e)
+                    <div className={classes.Modal} onClick={(e) => {    
+                        closeModal(e)
                     }}>
                         <div 
-                            style={{ height: h, 
-                                      width: w, 
+                            style={{ 
                                       position: position, 
                                       top: top, 
                                       bottom: bottom

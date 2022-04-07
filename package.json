@@ -1,8 +1,11 @@
 {
+  "homepage": "https://diegolarraz.github.io/ ecommerce-insta-search/",
   "name": "ecommerce-insta-search",
   "version": "1.0.0",
   "private": true,
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "lint": "eslint .",
@@ -22,6 +25,7 @@
     "eslint-plugin-import": "2.19.1",
     "eslint-plugin-prettier": "3.1.2",
     "eslint-plugin-react": "7.17.0",
+    "gh-pages": "^3.2.3",
     "prettier": "1.19.1",
     "prop-types": "15.7.2"
   },
